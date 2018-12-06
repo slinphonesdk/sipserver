@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <Button n1:id="@id/button_start" n1:onClick="startAction" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Start" n1:width="76.0dip" />
+        <Button n1:layout_gravity="center_horizontal" n1:onClick="stop" n1:id="@id/button_stop" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Stop" n1:width="76.0dip" />
+        <Button n1:id="@id/button_status" n1:onClick="status" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Status" n1:width="76.0dip" />
+        <Button n1:id="@id/button_register" n1:onClick="register" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Register" n1:width="76.0dip" />
+    </LinearLayout>
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <Button n1:id="@+id/button_configure_sip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="Configure" n1:width="90.0dip" n1:onClick="configer"/>
+        <CheckBox n1:id="@id/checkbox_siplog" n1:onClick="sipLog" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="sip_log" />
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/textView1" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text=" " />
+        <CheckBox n1:id="@id/checkbox_registerlog" n1:onClick="registerLog" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="register_log" />
+    </LinearLayout>
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textAppearance="?android:textAppearanceMedium" n1:id="@id/label_console" n1:background="@color/gray" n1:layout_width="0.0dip" n1:layout_height="wrap_content" n1:text="[Console]" n1:layout_weight="0.66" />
+        <Button n1:id="@id/button_console_copy" n1:onClick="copy" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:text="copy" style="?android:buttonStyleSmall" />
+        <Button n1:id="@id/button_console_clear" n1:onClick="clear" n1:layout_width="wrap_content" n1:layout_height="30.0dip" n1:text="clear" style="?android:buttonStyleSmall" />
+    </LinearLayout>
+
+    <TextView
+        n1:id="@id/text_console"
+        n1:layout_width="fill_parent"
+        n1:layout_height="fill_parent"
+        n1:background="@color/white"
+        n1:text="TextView"
+        n1:textColor="@color/drakgray"
+        tools:text='""' />
+</LinearLayout>

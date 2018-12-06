@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen>
+    <EditTextPreference n1:singleLine="true" n1:title="Domain" n1:key="@string/pref_domain" n1:defaultValue="@string/pref_domain_default"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <EditTextPreference n2:digits="0123456789." n2:title="Local IP" n2:key="@string/pref_localip" n2:defaultValue="@string/pref_localip_default"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <EditTextPreference n3:numeric="integer" n3:title="Local Port" n3:key="@string/pref_localport" n3:defaultValue="@string/pref_localport_default"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n4:title="Auto Start" n4:key="pref_auto_start" n4:defaultValue="true"
+      xmlns:n4="http://schemas.android.com/apk/res/android" />
+    <CheckBoxPreference n5:title="Register Data Persistence" n5:key="pref_register_data_persistence" n5:defaultValue="false"
+      xmlns:n5="http://schemas.android.com/apk/res/android" />
+</PreferenceScreen>

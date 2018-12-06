@@ -1,0 +1,16 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.joinsip.usipserver">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+    <application>
+        <activity android:name="org.joinsip.usipserver.USipServerActivity">
+        </activity>
+        <activity android:name="org.joinsip.usipserver.ConfigActivity"/>
+        <service android:name="org.joinsip.usipserver.USipServerService"/>
+        <receiver android:name="org.joinsip.usipserver.BootReceiver">
+        </receiver>
+    </application>
+
+</manifest>

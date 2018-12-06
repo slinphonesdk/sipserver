@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">uSipServer</string>
+    <string name="default_text">"Press [start] button to start sip server.
+Default SIP domain is local IP."</string>
+    <string name="hello">i-sipserver</string>
+    <string name="pref_domain">pref_domain</string>
+    <string name="pref_domain_default" />
+    <string name="pref_localip">pref_localip</string>
+    <string name="pref_localip_default">0.0.0.0</string>
+    <string name="pref_localport">pref_localport</string>
+    <string name="pref_localport_default">5060</string>
+</resources>

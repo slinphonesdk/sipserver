@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button_configure">false</item>
+    <item type="id" name="button_console_clear">false</item>
+    <item type="id" name="button_console_copy">false</item>
+    <item type="id" name="button_register">false</item>
+    <item type="id" name="button_start">false</item>
+    <item type="id" name="button_status">false</item>
+    <item type="id" name="button_stop">false</item>
+    <item type="id" name="checkbox_registerlog">false</item>
+    <item type="id" name="checkbox_siplog">false</item>
+    <item type="id" name="label_console">false</item>
+    <item type="id" name="textView1">false</item>
+    <item type="id" name="text_console">false</item>
+</resources>
